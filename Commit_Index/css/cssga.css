@@ -1,0 +1,27 @@
+footer{
+    background-color: rgb(119, 119, 119);
+    text-align: center;
+    height: 100px;
+    margin: 3px;
+}
+
+
+nav {
+    background-color: #4676b9;
+}
+
+
+p.none {border-style: none;}
+
+.divgaleria{ 
+    align-content: center;
+    background-color: #005580;  
+    }
+h2{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.fondo{
+    background-color: #009966;
+}

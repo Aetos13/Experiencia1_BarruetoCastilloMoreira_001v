@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/css.css" type="text/css">
+    <title>Ejemplo</title>
+</head>
+<body>  
+    <style>
+        .banner-image{
+            background-image: url('imagenes/fondo-nav.jpg');
+            background-size: cover;
+        }
+    </style>
+    <!-- Navbar-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">Black Hole</a>
+            <button 
+                type="button" 
+                class="navbar-toggler"
+                data-bs-target="$navbarNav" 
+                data-bs-toggle="collapse"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-lable="toggle Navbar"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="mx-auto"></div>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link text-white">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="QuienesSomos.html" class="nav-link text-white">¿Quiénes somos?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Galeria.html" class="nav-link text-white">Galeria</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Banner Imagen -->
+    <div class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center">
+        <div class="content text-center">
+            <h1 class="text-white"> Black Hole</h1>
+        </div>
+    </div>
+
+    <!--Parrafos body -->
+    <div class="container my-5 d-grid gap-5">
+        <div class="p-5 border">
+            <p>
+                Lorem ipsum dolor sit, amet consectetur 
+                adipisicing elit. Ut at, necessitatibus 
+                totam aspernatur suscipit perspiciatis 
+                delectus nesciunt in enim amet explicabo 
+                unde, et fugit magni fugiat voluptas impedit 
+                adipisci aut!
+            </p>
+        </div>
+    </div>
+    <div class="container my-5 d-grid gap-5">
+        <div class="p-5 border">
+            <p>
+                Lorem ipsum dolor sit, amet consectetur 
+                adipisicing elit. Ut at, necessitatibus 
+                totam aspernatur suscipit perspiciatis 
+                delectus nesciunt in enim amet explicabo 
+                unde, et fugit magni fugiat voluptas impedit 
+                adipisci aut!
+            </p>
+        </div>
+    </div>
+    <div class="container my-5 d-grid gap-5">
+        <div class="p-5 border">
+            <p>
+                Lorem ipsum dolor sit, amet consectetur 
+                adipisicing elit. Ut at, necessitatibus 
+                totam aspernatur suscipit perspiciatis 
+                delectus nesciunt in enim amet explicabo 
+                unde, et fugit magni fugiat voluptas impedit 
+                adipisci aut!
+            </p>
+        </div>
+    </div>
+
+
+
+
+        <footer>
+            <div class="container-footer-all">
+                <div class="container-body">
+                    <div class="colum1">
+                        <h1>Mas informacion de la compañia</h1>
+                        <p>Esta compañia se dedica a la venta de Equipos informaticos,
+                        partes y elemenos electronicos.
+                        </p>
+                    </div>
+
+                    <div class="colum2">
+                        <h1>Redes sociales</h1>
+                        <div class="row3">
+                            <img src="imagenes/face.png" >
+                            <label> Siguenos en Facebook</label>
+                        </div>
+                        <div class="row3">
+                            <img src="imagenes/insta.png" >
+                            <label> Siguenos en Instagram</label>
+                        </div>
+                        <div class="row3">
+                            <img src="imagenes/twitter.png">
+                            <label> Siguenos en Twitter</label>
+                        </div>
+                    </div>
+
+                    <div class="colum3">
+                        <h1>Información de Contacto</h1>
+                        <div class="row2">
+                            <img src="imagenes/house.png">
+                            <label>Ancud 8675, Pudahuel</label>
+                        </div>
+                        <div class="row2">
+                            <img src="imagenes/cellphone.png">
+                            <label>+56 9 4599 6048</label>
+                        </div>
+                        <div class="row2">
+                            <img src="imagenes/gmail.png">
+                            <label>Experiencia1@blackhole.cl</label>
+                        </div>
+                    </div>
+                </div> 
+
+                <div class="container-footer">
+                    <div class="copyright">
+                        &#169 Derechos reservados a Black Hole 2021
+                    </div>
+                    <div class="terminos">
+                        <a href="">Información de la compañia </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <script src="js/bootstrap.bundle.min.js"> </script>
+        <script>
+            var nav = document.querySelector('nav');
+            window.addEventListener('scroll', function() {
+                if (window.pageYOffset > 100){
+                    nav.classList.add('bg-dark', 'shadow');
+                }else{
+                    nav.classList.remove('bg-dark', 'shadow');
+                }
+            });
+        </script>
+</body>
+</html>
